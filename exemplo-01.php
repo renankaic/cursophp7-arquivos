@@ -11,7 +11,8 @@
 
     } else {
 
-        echo "Já existe o diretório: $name ";
+        rmdir($name); //Remove a pasta
+        echo "Já existe o diretório: $name foi removido ";
 
     }
 
